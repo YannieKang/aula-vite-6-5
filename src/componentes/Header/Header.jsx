@@ -2,8 +2,8 @@ import Navbar from "../Navbar/Navbar"
 
 function Header() {
     return(
-      <header>
-        <span>Ola, Visitante!</span>
+      <header className="flex">
+        <span>Olá, Visitante!</span>
         <h1>Bem-vindo ao MovieApp</h1>
         <Navbar/>
       </header>
